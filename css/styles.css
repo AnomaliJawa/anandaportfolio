@@ -3481,9 +3481,9 @@ td:last-child {
  * ## intro btn cv download
  * -------------------------------------------------------------------- */
 .s-intro__btn-download {
-    --color-btn-stroke           : white;
+    --color-btn-stroke           : #ECEEEC;
     --color-btn-stroke-text      : white;
-    --color-btn-stroke-hover     : white;
+    --color-btn-stroke-hover     : #ECEEEC;
     --color-btn-stroke-hover-text: var(--color-text-dark);
     --hline-width                : min(16rem, 8vw);
     z-index                      : 2;
@@ -3501,7 +3501,7 @@ td:last-child {
     display         : block;
     height          : 2px;
     width           : var(--hline-width);
-    background-color: white;
+    background-color: #ECEEEC;
     position        : absolute;
     top             : calc(50% - 2px);
     left            : calc(var(--hline-width) * -1);
